@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: MAT_Platform
   m_Shader: {fileID: 4800000, guid: 0dde7f0097aeb2541aea684ca0ad0e3c, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALBEDOVERTEXCOLORMODE_REPLACE
   - _ALPHA_CUTOFF_ON
@@ -38,6 +40,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -202,10 +205,10 @@ Material:
     - _ColorMask: 15
     - _ColorRampBlend: 1
     - _ColorRampLightingStage: 0
-    - _ColorRampLuminosity: 0.233
+    - _ColorRampLuminosity: 0.372
     - _ColorRampOn: 1
     - _ColorRampScrollSpeed: 0
-    - _ColorRampTiling: 1
+    - _ColorRampTiling: 0.51
     - _Contrast: 1
     - _ContrastBrightnessOn: 0
     - _CullingMode: 2
@@ -295,7 +298,7 @@ Material:
     - _MaxRim: 1
     - _MaxToonLight: 0.51
     - _MaxToonLightSpecular: 0.51
-    - _Metallic: 0
+    - _Metallic: 0.207
     - _MinDepth: 10
     - _MinExtrude: 0
     - _MinGradientHeight: 0
@@ -320,7 +323,7 @@ Material:
     - _PosterizeNumColors: 8
     - _RecalculateNormals: 0
     - _Reflections: 1
-    - _ReflectionsAtten: 0.25
+    - _ReflectionsAtten: 0.446
     - _RenderPreset: 1
     - _RimAttenuation: 0.9
     - _RimLighting: 1
@@ -339,7 +342,7 @@ Material:
     - _ShakeBlend: 1
     - _ShakeSpeedMult: 1
     - _Shininess: 16
-    - _Smoothness: 0.174
+    - _Smoothness: 0.612
     - _SmoothnessTextureChannel: 0
     - _SpecularAdditionalLights: 1
     - _SpecularAtten: 1
@@ -413,3 +416,4 @@ Material:
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _VertexDistortionNoiseSpeed: {r: 4, g: 4, b: 0, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
